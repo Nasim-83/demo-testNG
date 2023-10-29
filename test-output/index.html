@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Testng_session_test_utomation_suites" class="navigator-link">
+              <span class="suite-name border-failed">Testng session test utomation suites</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Testng_session_test_utomation_suites" class="navigator-link ">
+                    <span>C:\Users\TiaaUser\Documents\selenium space\testNGBasics\src\main\java\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Testng_session_test_utomation_suites" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Testng_session_test_utomation_suites" class="navigator-link ">
+                    <span>4 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Testng_session_test_utomation_suites" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Testng_session_test_utomation_suites" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Testng_session_test_utomation_suites" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Testng_session_test_utomation_suites" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods, 3 failed,  1 skipped,  22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Testng_session_test_utomation_suites" class="hide-methods failed suite-Testng_session_test_utomation_suites"> (hide)</a> <!-- hide-methods failed suite-Testng_session_test_utomation_suites -->
+                      <a href="#" panel-name="suite-Testng_session_test_utomation_suites" class="show-methods failed suite-Testng_session_test_utomation_suites"> (show)</a> <!-- show-methods failed suite-Testng_session_test_utomation_suites -->
+                    </span>
+                    <div class="method-list-content failed suite-Testng_session_test_utomation_suites">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.ExceptionTimeoutTest" class="method navigator-link" hash-for-method="infinitlooptest">infinitlooptest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.TestNGfeature" class="method navigator-link" hash-for-method="logintest">logintest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.ExceptionTimeoutTest" class="method navigator-link" hash-for-method="time1">time1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Testng_session_test_utomation_suites -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Testng_session_test_utomation_suites" class="hide-methods skipped suite-Testng_session_test_utomation_suites"> (hide)</a> <!-- hide-methods skipped suite-Testng_session_test_utomation_suites -->
+                      <a href="#" panel-name="suite-Testng_session_test_utomation_suites" class="show-methods skipped suite-Testng_session_test_utomation_suites"> (show)</a> <!-- show-methods skipped suite-Testng_session_test_utomation_suites -->
+                    </span>
+                    <div class="method-list-content skipped suite-Testng_session_test_utomation_suites">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.TestNGfeature" class="method navigator-link" hash-for-method="hometest">hometest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Testng_session_test_utomation_suites -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Testng_session_test_utomation_suites" class="hide-methods passed suite-Testng_session_test_utomation_suites"> (hide)</a> <!-- hide-methods passed suite-Testng_session_test_utomation_suites -->
+                      <a href="#" panel-name="suite-Testng_session_test_utomation_suites" class="show-methods passed suite-Testng_session_test_utomation_suites"> (show)</a> <!-- show-methods passed suite-Testng_session_test_utomation_suites -->
+                    </span>
+                    <div class="method-list-content passed suite-Testng_session_test_utomation_suites">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.InvocationCount" class="method navigator-link" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.InvocationCount" class="method navigator-link" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.InvocationCount" class="method navigator-link" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.InvocationCount" class="method navigator-link" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.InvocationCount" class="method navigator-link" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.InvocationCount" class="method navigator-link" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.InvocationCount" class="method navigator-link" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.InvocationCount" class="method navigator-link" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.InvocationCount" class="method navigator-link" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.InvocationCount" class="method navigator-link" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.Googletest" class="method navigator-link" hash-for-method="t1">t1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.Googletest" class="method navigator-link" hash-for-method="te3">te3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.TestNGbasic" class="method navigator-link" hash-for-method="testmethod1">testmethod1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.TestNGbasic" class="method navigator-link" hash-for-method="testmethod2">testmethod2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.TestNGbasic" class="method navigator-link" hash-for-method="testmethod3">testmethod3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.ExceptionTimeoutTest" class="method navigator-link" hash-for-method="time">time</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.Googletest" class="method navigator-link" hash-for-method="tt2">tt2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.Googletest" class="method navigator-link" hash-for-method="verifylogo">verifylogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.GoogletitileTest" class="method navigator-link" hash-for-method="verifylogo">verifylogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.Googletest" class="method navigator-link" hash-for-method="verifysignbutton">verifysignbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.Googletest" class="method navigator-link" hash-for-method="verifytitle">verifytitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_session_test_utomation_suites" title="com.test.GoogletitileTest" class="method navigator-link" hash-for-method="verifytitle">verifytitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Testng_session_test_utomation_suites -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Testng_session_test_utomation_suites" class="panel Testng_session_test_utomation_suites">
+          <div class="suite-Testng_session_test_utomation_suites-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.test.ExceptionTimeoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="infinitlooptest">
+                  </a> <!-- infinitlooptest -->
+                  <span class="method-name">infinitlooptest</span>
+                  <div class="stack-trace">org.testng.internal.thread.ThreadTimeoutException: Method com.test.ExceptionTimeoutTest.infinitlooptest() didn&apos;t finish within the time-out 2000
+	at java.base@17.0.4.1/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base@17.0.4.1/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base@17.0.4.1/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base@17.0.4.1/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at java.base@17.0.4.1/java.io.PrintStream.write(PrintStream.java:570)
+	at java.base@17.0.4.1/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:234)
+	at java.base@17.0.4.1/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:313)
+	at java.base@17.0.4.1/sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:111)
+	at java.base@17.0.4.1/java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:178)
+	at java.base@17.0.4.1/java.io.PrintStream.writeln(PrintStream.java:723)
+	at java.base@17.0.4.1/java.io.PrintStream.println(PrintStream.java:938)
+	at app//com.test.ExceptionTimeoutTest.infinitlooptest(ExceptionTimeoutTest.java:13)
+	at java.base@17.0.4.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="time1">
+                  </a> <!-- time1 -->
+                  <span class="method-name">time1</span>
+                  <div class="stack-trace">org.testng.TestException: 
+Method ExceptionTimeoutTest.time1()[pri:0, instance:com.test.ExceptionTimeoutTest@4145bad8] should have thrown an exception of type class java.lang.NumberFormatException
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testng_session_test_utomation_suites-class-failed -->
+          <div class="suite-Testng_session_test_utomation_suites-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.test.TestNGfeature</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logintest">
+                  </a> <!-- logintest -->
+                  <span class="method-name">logintest</span>
+                  <div class="stack-trace">java.lang.ArithmeticException: / by zero
+	at com.test.TestNGfeature.logintest(TestNGfeature.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testng_session_test_utomation_suites-class-failed -->
+          <div class="suite-Testng_session_test_utomation_suites-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.test.TestNGfeature</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hometest">
+                  </a> <!-- hometest -->
+                  <span class="method-name">hometest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.test.TestNGfeature.hometest() on instance com.test.TestNGfeature@7bba5817 depends on not successfully finished methods 
+[com.test.TestNGfeature.logintest() on instance com.test.TestNGfeature@7bba5817]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testng_session_test_utomation_suites-class-skipped -->
+          <div class="suite-Testng_session_test_utomation_suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestNGbasic</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testmethod1">
+                  </a> <!-- testmethod1 -->
+                  <span class="method-name">testmethod1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testmethod2">
+                  </a> <!-- testmethod2 -->
+                  <span class="method-name">testmethod2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testmethod3">
+                  </a> <!-- testmethod3 -->
+                  <span class="method-name">testmethod3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testng_session_test_utomation_suites-class-passed -->
+          <div class="suite-Testng_session_test_utomation_suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.InvocationCount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testng_session_test_utomation_suites-class-passed -->
+          <div class="suite-Testng_session_test_utomation_suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.ExceptionTimeoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="time">
+                  </a> <!-- time -->
+                  <span class="method-name">time</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testng_session_test_utomation_suites-class-passed -->
+          <div class="suite-Testng_session_test_utomation_suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.GoogletitileTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifylogo">
+                  </a> <!-- verifylogo -->
+                  <span class="method-name">verifylogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytitle">
+                  </a> <!-- verifytitle -->
+                  <span class="method-name">verifytitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testng_session_test_utomation_suites-class-passed -->
+          <div class="suite-Testng_session_test_utomation_suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.Googletest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="t1">
+                  </a> <!-- t1 -->
+                  <span class="method-name">t1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="te3">
+                  </a> <!-- te3 -->
+                  <span class="method-name">te3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tt2">
+                  </a> <!-- tt2 -->
+                  <span class="method-name">tt2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifylogo">
+                  </a> <!-- verifylogo -->
+                  <span class="method-name">verifylogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifysignbutton">
+                  </a> <!-- verifysignbutton -->
+                  <span class="method-name">verifysignbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytitle">
+                  </a> <!-- verifytitle -->
+                  <span class="method-name">verifytitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testng_session_test_utomation_suites-class-passed -->
+        </div> <!-- panel Testng_session_test_utomation_suites -->
+        <div panel-name="test-xml-Testng_session_test_utomation_suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\TiaaUser\Documents\selenium space\testNGBasics\src\main\java\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Testng session test utomation suites&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Google featue&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.ExceptionTimeoutTest&quot;/&gt;
+      &lt;class name=&quot;com.test.Googletest&quot;/&gt;
+      &lt;class name=&quot;com.test.GoogletitileTest&quot;/&gt;
+      &lt;class name=&quot;com.test.InvocationCount&quot;/&gt;
+      &lt;class name=&quot;com.test.TestNGbasic&quot;/&gt;
+      &lt;class name=&quot;com.test.TestNGfeature&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google featue --&gt;
+&lt;/suite&gt; &lt;!-- Testng session test utomation suites --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Testng_session_test_utomation_suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Testng session test utomation suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Google featue (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Testng_session_test_utomation_suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Testng session test utomation suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Title</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifytitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">image</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifylogo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">t1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smaoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifysignbutton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Testng_session_test_utomation_suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Testng session test utomation suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Testng_session_test_utomation_suites');
+function tableData_Testng_session_test_utomation_suites() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifytitle')
+data.setCell(0, 2, 'com.test.Googletest')
+data.setCell(0, 3, 2280);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'infinitlooptest')
+data.setCell(1, 2, 'com.test.ExceptionTimeoutTest')
+data.setCell(1, 3, 2090);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifysignbutton')
+data.setCell(2, 2, 'com.test.Googletest')
+data.setCell(2, 3, 380);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'time1')
+data.setCell(3, 2, 'com.test.ExceptionTimeoutTest')
+data.setCell(3, 3, 233);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifylogo')
+data.setCell(4, 2, 'com.test.GoogletitileTest')
+data.setCell(4, 3, 155);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 't1')
+data.setCell(5, 2, 'com.test.Googletest')
+data.setCell(5, 3, 44);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifylogo')
+data.setCell(6, 2, 'com.test.Googletest')
+data.setCell(6, 3, 43);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'sum')
+data.setCell(7, 2, 'com.test.InvocationCount')
+data.setCell(7, 3, 17);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifytitle')
+data.setCell(8, 2, 'com.test.GoogletitileTest')
+data.setCell(8, 3, 11);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'sum')
+data.setCell(9, 2, 'com.test.InvocationCount')
+data.setCell(9, 3, 8);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tt2')
+data.setCell(10, 2, 'com.test.Googletest')
+data.setCell(10, 3, 7);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'time')
+data.setCell(11, 2, 'com.test.ExceptionTimeoutTest')
+data.setCell(11, 3, 6);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'sum')
+data.setCell(12, 2, 'com.test.InvocationCount')
+data.setCell(12, 3, 6);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'sum')
+data.setCell(13, 2, 'com.test.InvocationCount')
+data.setCell(13, 3, 5);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'logintest')
+data.setCell(14, 2, 'com.test.TestNGfeature')
+data.setCell(14, 3, 5);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testmethod1')
+data.setCell(15, 2, 'com.test.TestNGbasic')
+data.setCell(15, 3, 4);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'te3')
+data.setCell(16, 2, 'com.test.Googletest')
+data.setCell(16, 3, 4);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'sum')
+data.setCell(17, 2, 'com.test.InvocationCount')
+data.setCell(17, 3, 3);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testmethod3')
+data.setCell(18, 2, 'com.test.TestNGbasic')
+data.setCell(18, 3, 3);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'sum')
+data.setCell(19, 2, 'com.test.InvocationCount')
+data.setCell(19, 3, 2);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testmethod2')
+data.setCell(20, 2, 'com.test.TestNGbasic')
+data.setCell(20, 3, 2);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'sum')
+data.setCell(21, 2, 'com.test.InvocationCount')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'sum')
+data.setCell(22, 2, 'com.test.InvocationCount')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'sum')
+data.setCell(23, 2, 'com.test.InvocationCount')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'sum')
+data.setCell(24, 2, 'com.test.InvocationCount')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'hometest')
+data.setCell(25, 2, 'com.test.TestNGfeature')
+data.setCell(25, 3, 0);
+window.suiteTableData['Testng_session_test_utomation_suites']= { tableData: data, tableDiv: 'times-div-Testng_session_test_utomation_suites'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Testng_session_test_utomation_suites">
+              </div> <!-- times-div-Testng_session_test_utomation_suites -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Testng_session_test_utomation_suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Testng session test utomation suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Testng_session_test_utomation_suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Testng_session_test_utomation_suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestNGbasic</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforesuitmethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetestmethod</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.ExceptionTimeoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">infinitlooptest</span>
+                <span class="method-start">106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">time</span>
+                <span class="method-start">2212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">time1</span>
+                <span class="method-start">2251 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.Googletest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">t1</span>
+                <span class="method-start">50182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">50230 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">54913 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">te3</span>
+                <span class="method-start">65890 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">65898 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">72236 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tt2</span>
+                <span class="method-start">104290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">104301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">108520 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifytitle</span>
+                <span class="method-start">116121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">118403 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">118937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifysignbutton</span>
+                <span class="method-start">142917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">143299 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">145708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifylogo</span>
+                <span class="method-start">155684 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">155730 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.GoogletitileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">156786 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifylogo</span>
+                <span class="method-start">184463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">184619 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">193968 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifytitle</span>
+                <span class="method-start">200578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">200591 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.InvocationCount</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">200936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">200939 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">200942 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">200948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">200952 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">200972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">200979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">200982 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">200989 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">200995 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestNGbasic</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeclassmethod</span>
+                <span class="method-start">201006 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemehod</span>
+                <span class="method-start">201012 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testmethod1</span>
+                <span class="method-start">201015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">201020 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemehod</span>
+                <span class="method-start">201022 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testmethod2</span>
+                <span class="method-start">201024 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">201032 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testmethod3</span>
+                <span class="method-start">201034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemehod</span>
+                <span class="method-start">201034 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">201039 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclassmethod</span>
+                <span class="method-start">201041 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestNGfeature</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">logintest</span>
+                <span class="method-start">201045 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestNGbasic</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertestmethod</span>
+                <span class="method-start">201081 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">aftersuitmethod</span>
+                <span class="method-start">202156 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

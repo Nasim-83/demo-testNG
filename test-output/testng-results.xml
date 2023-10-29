@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="22" failed="3" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-29T14:51:15 IST" name="Testng session test utomation suites" finished-at="2023-10-29T14:54:36 IST" duration-ms="201044">
+    <groups>
+      <group name="image">
+        <method signature="Googletest.verifylogo()[pri:3, instance:com.test.Googletest@53fe15ff]" name="verifylogo" class="com.test.Googletest"/>
+      </group> <!-- image -->
+      <group name="smaoke">
+        <method signature="Googletest.verifysignbutton()[pri:2, instance:com.test.Googletest@53fe15ff]" name="verifysignbutton" class="com.test.Googletest"/>
+      </group> <!-- smaoke -->
+      <group name="Title">
+        <method signature="Googletest.verifytitle()[pri:1, instance:com.test.Googletest@53fe15ff]" name="verifytitle" class="com.test.Googletest"/>
+        <method signature="GoogletitileTest.verifytitle()[pri:1, instance:com.test.GoogletitileTest@5149d738]" name="verifytitle" class="com.test.GoogletitileTest"/>
+      </group> <!-- Title -->
+      <group name="sanity">
+        <method signature="Googletest.t1()[pri:0, instance:com.test.Googletest@53fe15ff]" name="t1" class="com.test.Googletest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-10-29T14:51:15 IST" name="Google featue" finished-at="2023-10-29T14:54:36 IST" duration-ms="201044">
+      <class name="com.test.ExceptionTimeoutTest">
+        <test-method signature="infinitlooptest()[pri:0, instance:com.test.ExceptionTimeoutTest@4145bad8]" started-at="2023-10-29T14:51:15 IST" name="infinitlooptest" finished-at="2023-10-29T14:51:18 IST" duration-ms="2090" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method com.test.ExceptionTimeoutTest.infinitlooptest() didn't finish within the time-out 2000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method com.test.ExceptionTimeoutTest.infinitlooptest() didn't finish within the time-out 2000
+at java.base@17.0.4.1/java.io.FileOutputStream.writeBytes(Native Method)
+at java.base@17.0.4.1/java.io.FileOutputStream.write(FileOutputStream.java:349)
+at java.base@17.0.4.1/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+at java.base@17.0.4.1/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+at java.base@17.0.4.1/java.io.PrintStream.write(PrintStream.java:570)
+at java.base@17.0.4.1/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:234)
+at java.base@17.0.4.1/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:313)
+at java.base@17.0.4.1/sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:111)
+at java.base@17.0.4.1/java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:178)
+at java.base@17.0.4.1/java.io.PrintStream.writeln(PrintStream.java:723)
+at java.base@17.0.4.1/java.io.PrintStream.println(PrintStream.java:938)
+at app//com.test.ExceptionTimeoutTest.infinitlooptest(ExceptionTimeoutTest.java:13)
+at java.base@17.0.4.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base@17.0.4.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base@17.0.4.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base@17.0.4.1/java.lang.reflect.Method.invoke(Method.java:568)
+at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base@17.0.4.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infinitlooptest -->
+        <test-method signature="time()[pri:0, instance:com.test.ExceptionTimeoutTest@4145bad8]" started-at="2023-10-29T14:51:18 IST" name="time" finished-at="2023-10-29T14:51:18 IST" duration-ms="6" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.test.ExceptionTimeoutTest.time(ExceptionTimeoutTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method signature="time1()[pri:0, instance:com.test.ExceptionTimeoutTest@4145bad8]" started-at="2023-10-29T14:51:18 IST" name="time1" finished-at="2023-10-29T14:51:18 IST" duration-ms="233" status="FAIL">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method ExceptionTimeoutTest.time1()[pri:0, instance:com.test.ExceptionTimeoutTest@4145bad8] should have thrown an exception of type class java.lang.NumberFormatException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method ExceptionTimeoutTest.time1()[pri:0, instance:com.test.ExceptionTimeoutTest@4145bad8] should have thrown an exception of type class java.lang.NumberFormatException
+at org.testng.internal.invokers.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:81)
+at org.testng.internal.invokers.TestInvoker.considerExceptions(TestInvoker.java:860)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:718)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time1 -->
+      </class> <!-- com.test.ExceptionTimeoutTest -->
+      <class name="com.test.InvocationCount">
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCount@6bbe85a8]" started-at="2023-10-29T14:54:36 IST" name="sum" finished-at="2023-10-29T14:54:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCount@6bbe85a8]" started-at="2023-10-29T14:54:36 IST" name="sum" finished-at="2023-10-29T14:54:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCount@6bbe85a8]" started-at="2023-10-29T14:54:36 IST" name="sum" finished-at="2023-10-29T14:54:36 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCount@6bbe85a8]" started-at="2023-10-29T14:54:36 IST" name="sum" finished-at="2023-10-29T14:54:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCount@6bbe85a8]" started-at="2023-10-29T14:54:36 IST" name="sum" finished-at="2023-10-29T14:54:36 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCount@6bbe85a8]" started-at="2023-10-29T14:54:36 IST" name="sum" finished-at="2023-10-29T14:54:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCount@6bbe85a8]" started-at="2023-10-29T14:54:36 IST" name="sum" finished-at="2023-10-29T14:54:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCount@6bbe85a8]" started-at="2023-10-29T14:54:36 IST" name="sum" finished-at="2023-10-29T14:54:36 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCount@6bbe85a8]" started-at="2023-10-29T14:54:36 IST" name="sum" finished-at="2023-10-29T14:54:36 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCount@6bbe85a8]" started-at="2023-10-29T14:54:36 IST" name="sum" finished-at="2023-10-29T14:54:36 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.test.InvocationCount -->
+      <class name="com.test.GoogletitileTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.GoogletitileTest@5149d738]" started-at="2023-10-29T14:53:52 IST" name="setup" finished-at="2023-10-29T14:54:20 IST" duration-ms="27677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifylogo()[pri:0, instance:com.test.GoogletitileTest@5149d738]" started-at="2023-10-29T14:54:20 IST" name="verifylogo" finished-at="2023-10-29T14:54:20 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.GoogletitileTest@5149d738]" started-at="2023-10-29T14:54:20 IST" name="teardown" finished-at="2023-10-29T14:54:29 IST" duration-ms="9348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.GoogletitileTest@5149d738]" started-at="2023-10-29T14:54:29 IST" name="setup" finished-at="2023-10-29T14:54:36 IST" duration-ms="6608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytitle()[pri:1, instance:com.test.GoogletitileTest@5149d738]" started-at="2023-10-29T14:54:36 IST" name="verifytitle" finished-at="2023-10-29T14:54:36 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.GoogletitileTest@5149d738]" started-at="2023-10-29T14:54:36 IST" name="teardown" finished-at="2023-10-29T14:54:36 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.GoogletitileTest -->
+      <class name="com.test.Googletest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:51:18 IST" name="setup" finished-at="2023-10-29T14:52:05 IST" duration-ms="47674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="t1()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:52:05 IST" name="t1" finished-at="2023-10-29T14:52:06 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:52:06 IST" name="teardown" finished-at="2023-10-29T14:52:10 IST" duration-ms="4675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:52:10 IST" name="setup" finished-at="2023-10-29T14:52:21 IST" duration-ms="10977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="te3()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:52:21 IST" name="te3" finished-at="2023-10-29T14:52:21 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- te3 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:52:21 IST" name="teardown" finished-at="2023-10-29T14:52:28 IST" duration-ms="6337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:52:28 IST" name="setup" finished-at="2023-10-29T14:53:00 IST" duration-ms="32054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tt2()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:53:00 IST" name="tt2" finished-at="2023-10-29T14:53:00 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tt2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:53:00 IST" name="teardown" finished-at="2023-10-29T14:53:04 IST" duration-ms="4218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:53:04 IST" name="setup" finished-at="2023-10-29T14:53:11 IST" duration-ms="7599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytitle()[pri:1, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:53:11 IST" name="verifytitle" finished-at="2023-10-29T14:53:14 IST" duration-ms="2280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:53:14 IST" name="teardown" finished-at="2023-10-29T14:53:14 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:53:14 IST" name="setup" finished-at="2023-10-29T14:53:38 IST" duration-ms="23979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifysignbutton()[pri:2, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:53:38 IST" name="verifysignbutton" finished-at="2023-10-29T14:53:39 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysignbutton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:53:39 IST" name="teardown" finished-at="2023-10-29T14:53:41 IST" duration-ms="2408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:53:41 IST" name="setup" finished-at="2023-10-29T14:53:51 IST" duration-ms="9976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifylogo()[pri:3, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:53:51 IST" name="verifylogo" finished-at="2023-10-29T14:53:51 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.Googletest@53fe15ff]" started-at="2023-10-29T14:53:51 IST" name="teardown" finished-at="2023-10-29T14:53:52 IST" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.Googletest -->
+      <class name="com.test.TestNGbasic">
+        <test-method is-config="true" signature="beforesuitmethod()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:51:15 IST" name="beforesuitmethod" finished-at="2023-10-29T14:51:15 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuitmethod -->
+        <test-method is-config="true" signature="beforetestmethod()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:51:15 IST" name="beforetestmethod" finished-at="2023-10-29T14:51:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetestmethod -->
+        <test-method is-config="true" signature="beforeclassmethod()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:54:36 IST" name="beforeclassmethod" finished-at="2023-10-29T14:54:36 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclassmethod -->
+        <test-method is-config="true" signature="beforemehod()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:54:36 IST" name="beforemehod" finished-at="2023-10-29T14:54:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemehod -->
+        <test-method signature="testmethod1()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:54:36 IST" name="testmethod1" finished-at="2023-10-29T14:54:36 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod1 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:54:36 IST" name="aftermethod" finished-at="2023-10-29T14:54:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemehod()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:54:36 IST" name="beforemehod" finished-at="2023-10-29T14:54:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemehod -->
+        <test-method signature="testmethod2()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:54:36 IST" name="testmethod2" finished-at="2023-10-29T14:54:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod2 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:54:36 IST" name="aftermethod" finished-at="2023-10-29T14:54:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="testmethod3()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:54:36 IST" name="testmethod3" finished-at="2023-10-29T14:54:36 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod3 -->
+        <test-method is-config="true" signature="beforemehod()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:54:36 IST" name="beforemehod" finished-at="2023-10-29T14:54:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemehod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:54:36 IST" name="aftermethod" finished-at="2023-10-29T14:54:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclassmethod()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:54:36 IST" name="afterclassmethod" finished-at="2023-10-29T14:54:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclassmethod -->
+        <test-method is-config="true" signature="aftertestmethod()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:54:36 IST" name="aftertestmethod" finished-at="2023-10-29T14:54:36 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertestmethod -->
+        <test-method is-config="true" signature="aftersuitmethod()[pri:0, instance:com.test.TestNGbasic@cb0755b]" started-at="2023-10-29T14:54:37 IST" name="aftersuitmethod" finished-at="2023-10-29T14:54:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuitmethod -->
+      </class> <!-- com.test.TestNGbasic -->
+      <class name="com.test.TestNGfeature">
+        <test-method signature="logintest()[pri:0, instance:com.test.TestNGfeature@7bba5817]" started-at="2023-10-29T14:54:36 IST" name="logintest" finished-at="2023-10-29T14:54:36 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.test.TestNGfeature.logintest(TestNGfeature.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="hometest()[pri:0, instance:com.test.TestNGfeature@7bba5817]" started-at="2023-10-29T14:54:36 IST" name="hometest" finished-at="2023-10-29T14:54:36 IST" depends-on-methods="com.test.TestNGfeature.logintest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.test.TestNGfeature.hometest() on instance com.test.TestNGfeature@7bba5817 depends on not successfully finished methods 
+[com.test.TestNGfeature.logintest() on instance com.test.TestNGfeature@7bba5817]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.test.TestNGfeature.hometest() on instance com.test.TestNGfeature@7bba5817 depends on not successfully finished methods 
+[com.test.TestNGfeature.logintest() on instance com.test.TestNGfeature@7bba5817]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hometest -->
+      </class> <!-- com.test.TestNGfeature -->
+    </test> <!-- Google featue -->
+  </suite> <!-- Testng session test utomation suites -->
+</testng-results>

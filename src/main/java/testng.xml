@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testng session test utomation suites">
+    <test name="Google featue">
+         <classes>
+             <class name="com.test.ExceptionTimeoutTest"/>
+             <class name="com.test.Googletest"/>
+             <class name="com.test.GoogletitileTest"/>
+             <class name="com.test.InvocationCount"/>
+             <class name="com.test.TestNGbasic"/>
+             <class name="com.test.TestNGfeature"/>
+            </classes>
+     </test>
+</suite> 
